@@ -11,7 +11,7 @@ function checkGuess() {
   let userGuess = Number(guessField.value);
 
   if (!userGuess || userGuess < 1 || userGuess > 100) {
-    lastResult.textContent = 'Enter a number between 1 and 100';
+    lastResult.textContent = 'Enter a number between 1 and 100!';
     lastResult.style.backgroundColor = 'orange';
     return;
   }
